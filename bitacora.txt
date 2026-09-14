@@ -1,0 +1,17 @@
+Bitácora Taller 3 - [Samir ahmed jr mazloum mosquera] - [000622926]
+sudo apt update: actualiza el indice local de paquetes disponibles desde los repositorios configurados, sin instalar nada. Funciono correctamente, no hubo errores.
+sudo apt upgrade: instala las versiones mas nuevas de los paquetes ya instalados en el sistema. Funciono correctamente.
+Explicacion neofetch:
+OS: Linux Mint 22.3 x86_64 - sistema operativo y arquitectura.
+Host: HP Pro SFF 400 G9 - modelo del equipo.
+Kernel: 7.0.0-30-generic - version del nucleo de Linux.
+Uptime: 59 mins - tiempo encendido desde el ultimo reinicio.
+Packages: 1986 (dpkg) - paquetes instalados via dpkg.
+Shell: bash 5.2.21 - interprete de comandos.
+Resolution: 1920x1080 - resolucion de pantalla.
+DE: Cinnamon 6.6.9 - entorno de escritorio.
+WM: Mutter (Muffin) - gestor de ventanas.
+CPU: Intel i7-14700 (28) @ 5.300GHz - procesador.
+GPU: NVIDIA T400 4GB / Intel UHD Graphics - tarjetas graficas.
+Memory: 3691MiB / 31758MiB - RAM usada / total.
+mkdir Temporal en /opt sin sudo: Permission denied. /opt pertenece a root y mi usuario no tiene permisos de escritura ahi por defecto. Solucion: usar sudo mkdir Temporal.
